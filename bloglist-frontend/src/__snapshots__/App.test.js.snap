@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> when user is logged the details render correctly 1`] = `
+<div>
+  <table
+    className="ui table"
+  >
+    <thead
+      className=""
+    >
+      <tr
+        className=""
+      >
+        <th
+          className=""
+        >
+          <h2
+            style={
+              Object {
+                "color": "dimGray",
+              }
+            }
+          >
+            React patterns
+             
+            Michael Chan
+          </h2>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className=""
+    >
+      <tr
+        className=""
+      >
+        <td
+          className=""
+        >
+          <a
+            href="https://reactpatterns.com/"
+          >
+            https://reactpatterns.com/
+          </a>
+        </td>
+      </tr>
+      <tr
+        className=""
+      >
+        <td
+          className=""
+        >
+          1
+           likes  
+          <button
+            className="ui button"
+            disabled={undefined}
+            onClick={[Function]}
+            role="button"
+            tabIndex={undefined}
+          >
+            like
+          </button>
+        </td>
+      </tr>
+      <tr
+        className=""
+      >
+        <td
+          className=""
+        >
+          <div>
+            added by 
+            User1
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h3>
+    comments
+  </h3>
+  <form
+    action={undefined}
+    className="ui form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="inline field"
+    >
+      <input
+        name="comment"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <button
+        className="ui button"
+        disabled={undefined}
+        onClick={[Function]}
+        role="button"
+        tabIndex={undefined}
+        type="submit"
+      >
+        add comment
+      </button>
+    </div>
+  </form>
+  <ul />
+</div>
+`;
+
+exports[`<App /> when user is not logged it renders correctly 1`] = `
+<div>
+  <h2
+    style={
+      Object {
+        "color": "dimGray",
+      }
+    }
+  >
+    Log in to application
+  </h2>
+  <form
+    action={undefined}
+    className="ui form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="field"
+    >
+      <label>
+        username:
+      </label>
+      <input
+        name="username"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="field"
+    >
+      <label>
+        password:
+      </label>
+      <input
+        name="password"
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+    </div>
+    <button
+      className="ui button"
+      disabled={undefined}
+      onClick={[Function]}
+      role="button"
+      tabIndex={undefined}
+      type="submit"
+    >
+      login
+    </button>
+  </form>
+</div>
+`;
